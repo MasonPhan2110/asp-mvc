@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using Bulky.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Bulky.Controllers;
 
@@ -29,4 +29,3 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
-
